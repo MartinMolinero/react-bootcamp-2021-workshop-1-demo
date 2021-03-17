@@ -17,7 +17,6 @@ const DriversList = ({ title, items, filter }) => {
             title={`${rank}. ${name} ${country?.flag}`}
             text1={team}
             text2={`Points ${points}`}
-            accentColor={team}
           />
         ))}
       </div>
